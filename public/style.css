@@ -63,7 +63,7 @@ RESUABLE
   padding: 0.2rem;
 
   text-indent: 1.8rem;
-  font-size: 0.8rem;
+  font-size: 1rem;
   line-height: 1.6rem;
 }
 
@@ -78,7 +78,10 @@ FRONT PAGE
 
 .title {
   font-family: "Petit Formal Script";
-  font-size: 2.4rem;
+  width: 100vw;
+  font-size: 3rem;
+  display: flex;
+  justify-content: space-around;
 }
 
 .info-container {
@@ -154,6 +157,7 @@ AS SEEN IN
 /*
 PUZZLES
 */
+
 .puzzles-header {
   display: flex;
   align-items: flex-end;
@@ -174,8 +178,13 @@ PUZZLES
 
 .puzzles-grid {
   display: flex;
-  justify-content: space-between;
-  margin-top: 2.4rem;
+  margin-top: 1.2rem;
+  font-size: 1rem;
+  transition: all 0.4s;
+}
+
+.puzzle-name {
+  justify-self: space-around;
 }
 
 .clues {
@@ -196,4 +205,35 @@ PUZZLES
 .puzzle {
   width: 40%;
   border: 2px solid #080213;
+}
+
+.publisher {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 10rem;
+}
+
+.publishing-date {
+  width: 12rem;
+}
+
+.puzzle-name {
+  font-style: italic;
+}
+
+.puzzle-entry {
+  background-color: #fefbeb;
+}
+
+.puzzle-link:link,
+.puzzle-link:visited {
+  text-decoration: none;
+  color: #080213;
+}
+
+.puzzles-grid:hover,
+.puzzles-grid:focus {
+  background-color: #F1AB86;
+  color: #1E2D2F;
 }
