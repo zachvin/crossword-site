@@ -1,0 +1,199 @@
+/*
+
+COLORS
+  #080213
+  #444444;
+  #FEFBEB
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "Noticia Text";
+
+  background-color: #fff;
+  color: #444444;
+  min-width: 72rem;
+}
+
+/* 
+RESUABLE 
+*/
+
+.container {
+  margin: 1.2rem;
+  padding: 1.2rem;
+}
+
+.container-shadow {
+  background-color: #fefbeb;
+  box-shadow: 0rem 1rem 1.6rem gray;
+}
+
+.grid {
+  display: grid;
+}
+
+.article-title {
+  text-transform: uppercase;
+}
+
+.flex-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.article-title {
+  font-size: 1.6rem;
+}
+
+.article {
+  padding: 0.2rem;
+
+  text-indent: 1.8rem;
+  font-size: 0.8rem;
+  line-height: 1.6rem;
+}
+
+.logo {
+  opacity: 0.5;
+  width: 23%;
+}
+
+/* 
+FRONT PAGE 
+*/
+
+.title {
+  font-family: "Petit Formal Script";
+  font-size: 2.4rem;
+}
+
+.info-container {
+  border-top: 1px solid #080213;
+  border-bottom: 1px solid #080213;
+
+  margin-top: 0.6rem;
+}
+
+.info .location {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1rem;
+
+  width: 40%;
+}
+
+.info {
+  width: 80%;
+  font-size: 1rem;
+  line-height: 1rem;
+  padding: 0.4rem;
+  letter-spacing: 0.1rem;
+}
+
+.info p {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+}
+
+.headline {
+  font-family: "Roboto Condensed";
+  font-weight: 700;
+  font-size: 3.8rem;
+  letter-spacing: -0.3rem;
+
+  margin-bottom: 1.2rem;
+
+  border-bottom: 1px solid #080213;
+}
+
+.main {
+  grid-template-columns: 1fr 3fr;
+  column-gap: 1.2rem;
+}
+
+.main-img img {
+  width: 100%;
+  margin-top: 0.3rem;
+}
+
+/*
+AS SEEN IN
+*/
+.logos {
+  margin-top: 2.4rem;
+
+  align-items: center;
+  height: 7.2rem;
+}
+
+.as-seen {
+  font-size: 1.6rem;
+  width: 90%;
+  margin: 0 auto 0 auto;
+}
+
+.atlantic-logo {
+  width: 15%;
+}
+
+/*
+PUZZLES
+*/
+.puzzles-header {
+  display: flex;
+  align-items: flex-end;
+}
+
+.puzzles-title {
+  font-size: 3.2rem;
+  width: 19rem;
+  border-right: 2px solid #080213;
+}
+
+.puzzles-attribution {
+  font-size: 1.2rem;
+  margin-bottom: 0.6rem;
+  margin-left: 1rem;
+  font-weight: 400;
+}
+
+.puzzles-grid {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.4rem;
+}
+
+.clues {
+  column-count: 2;
+  font-size: 1.2rem;
+  width: auto;
+  height: auto;
+}
+
+.clues li {
+  margin-left: 1rem;
+}
+
+.dir {
+  font-weight: 700;
+}
+
+.puzzle {
+  width: 40%;
+  border: 2px solid #080213;
+}
